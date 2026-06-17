@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Aachal ❤️</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:linear-gradient(135deg,#ff758c,#ff7eb3);color:white;text-align:center;overflow-x:hidden}
+section{padding:70px 20px}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}
+h1{font-size:3rem;margin-bottom:15px}
+.card{max-width:800px;margin:15px auto;padding:20px;border-radius:20px;background:rgba(255,255,255,.15);backdrop-filter:blur(8px)}
+.btn{padding:14px 28px;border:none;border-radius:30px;font-size:18px;cursor:pointer;margin-top:20px}
+.heart{position:fixed;animation:float 5s linear infinite}
+@keyframes float{
+from{transform:translateY(100vh)}
+to{transform:translateY(-100px)}
+}
+#letter,#surprise{display:none}
+footer{padding:30px}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>🎂 Happy Birthday Aachal ❤️</h1>
+<h2>From Ritesh</h2>
+
+<div class="card">
+<p>
+Today is all about celebrating you. ❤️<br><br>
+I hope your day is filled with happiness, laughter, beautiful memories and everything you wish for.
+Thank you for being part of my life and making it brighter.
+</p>
+</div>
+
+<button class="btn" onclick="showLetter()">Open Secret Message mt kr meri jaan 💌</button>
+</section>
+
+<section>
+<h1>✨ Our Story ✨</h1>
+<div class="card">
+We met at a wedding, and who knew that one meeting would become something so special?
+Then came Snapchat conversations, late chats, smiles, memories, and moments that I never want to forget par 2nd call huaa tha sayd na . ❤️
+</div>
+</section>
+
+<section>
+<h1>📸 My Favorite Memory</h1>
+<div class="card">
+One of my favorite memories is when you secretly took my photos and videos.
+Every time I think about it, it makes me smile ha pr isko chor bolt hai zero civic sence. 🥰
+</div>
+</section>
+
+<section>
+<h1>💖 Why I Like You 💖</h1>
+
+<div class="card">
+I have a lot of reasons to like you, but if I started writing all of them,
+this website would never end. ❤️
+
+So here are just 10 reasons that instantly come to my mind...
+</div>
+
+<div class="card">😊 Your smile can make my day better.</div>
+<div class="card">💬 Talking to you never feels boring.</div>
+<div class="card">✨ You came into my life unexpectedly and made it special.</div>
+<div class="card">📸 The memory of you secretly taking my photos.</div>
+<div class="card">🥰 You make ordinary moments memorable.</div>
+<div class="card">❤️ You always stay on my mind.</div>
+<div class="card">🌹 You make me smile without trying.</div>
+<div class="card">💖 Every conversation feels special.</div>
+<div class="card">🫶 You are one of my favorite people.</div>
+<div class="card">💕 Because you're simply Aachal.</div>
+<div class="card"> pr sun ye faguniya hm tumko itta chahate hai itta chahata hai kya bataye kitta chahate hai .</div>
+</section>
+
+<section id="letter">
+<h1>💌 Secret Message</h1>
+<div class="card">
+<h2>Dear Aachal ❤️</h2>
+<br>
+<p>
+Happy Birthday, Angry Bird. 🐦❤️<br><br>
+
+I may not know everything about you yet, but I know enough to appreciate how special you are.
+Thank you for all the smiles, conversations and memories.
+
+I hope this birthday brings you happiness, success, peace and countless reasons to smile.
+
+And if there is one thing I want you to remember today, it's this:
+You are appreciated more than you know. ❤️
+
+<br><br>
+Happy Birthday, Mrs. Serious. 🎂✨
+<br><br>
+— Ritesh
+</p>
+</div>
+
+<button class="btn" onclick="showSurprise()">Final Surprise 🎁</button>
+</section>
+
+<section id="surprise">
+<h1>🎁 One Last Surprise</h1>
+<div class="card">
+If I had 100 wishes today, every single one would be for your happiness. ❤️<br><br>
+
+May your smile never fade.<br>
+May your dreams come true.<br>
+May this year be your best one yet.<br><br>
+
+Thank you for being part of my story.
+<br><br>
+Happy Birthday my angry bird ❤️
+</div>
+</section>
+
+<footer>
+Made with ❤️ by Ritesh babu yrr ek jagah spelling mistek ho gai hai dekh lena mujhe nh mil rh 
+  
+</footer>
+
+<script>
+function showLetter(){
+document.getElementById('letter').style.display='block';
+document.getElementById('letter').scrollIntoView({behavior:'smooth'});
+}
+function showSurprise(){
+document.getElementById('surprise').style.display='block';
+document.getElementById('surprise').scrollIntoView({behavior:'smooth'});
+}
+setInterval(()=>{
+let h=document.createElement('div');
+h.className='heart';
+h.innerHTML='❤️';
+h.style.left=Math.random()*100+'vw';
+h.style.fontSize=(20+Math.random()*25)+'px';
+document.body.appendChild(h);
+setTimeout(()=>h.remove(),5000);
+},300);
+</script>
+
+</body>
+</html>

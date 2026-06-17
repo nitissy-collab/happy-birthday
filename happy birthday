@@ -35,14 +35,14 @@ Thank you for being part of my life and making it brighter.
 </p>
 </div>
 
-<button class="btn" onclick="showLetter()">Open Secret Message mt kr meri jaan 💌</button>
+<button class="btn" onclick="showLetter()">Open Secret Message 💌</button>
 </section>
 
 <section>
 <h1>✨ Our Story ✨</h1>
 <div class="card">
 We met at a wedding, and who knew that one meeting would become something so special?
-Then came Snapchat conversations, late chats, smiles, memories, and moments that I never want to forget par 2nd call huaa tha sayd na . ❤️
+Then came Snapchat conversations, late chats, smiles, memories, and moments that I never want to forget. ❤️
 </div>
 </section>
 
@@ -50,7 +50,7 @@ Then came Snapchat conversations, late chats, smiles, memories, and moments that
 <h1>📸 My Favorite Memory</h1>
 <div class="card">
 One of my favorite memories is when you secretly took my photos and videos.
-Every time I think about it, it makes me smile ha pr isko chor bolt hai zero civic sence. 🥰
+Every time I think about it, it makes me smile ha pr isko chor bolt hai. 🥰
 </div>
 </section>
 
@@ -74,7 +74,6 @@ So here are just 10 reasons that instantly come to my mind...
 <div class="card">💖 Every conversation feels special.</div>
 <div class="card">🫶 You are one of my favorite people.</div>
 <div class="card">💕 Because you're simply Aachal.</div>
-<div class="card"> pr sun ye faguniya hm tumko itta chahate hai itta chahata hai kya bataye kitta chahate hai .</div>
 </section>
 
 <section id="letter">
